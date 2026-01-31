@@ -1,0 +1,20 @@
+h5py
+# conda install pytables
+
+# conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0 -c pytorch
+
+# !pip uninstall -y torch torchvision torchaudio
+
+# !pip install torch==1.10.2+cu113 torchvision==0.11.3+cu113 torchaudio==0.10.2+cu113 --extra-index-url https://download.pytorch.org/whl/cu113
+
+
+
+# import torch
+# print(torch.__version__)
+# print(torch.version.cuda)
+# print(torch.cuda.get_device_name(0))
+
+
+# 1.10.2+cu113
+# 11.3
+# NVIDIA RTX A6000
