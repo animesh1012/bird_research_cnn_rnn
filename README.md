@@ -1,10 +1,10 @@
 # Bioacoustics Bird Species Recognition in Realistic Environment Using CNN–RNN Classification Method
 
-This repository is dedicated to the work done using a CNN-RNN hybrid model in bird species identification. :contentReference[oaicite:0]{index=0}
+This repository is dedicated to the work done using a CNN-RNN hybrid model in bird species identification.
 
 ## 📌 Table of Contents
-
-- [Overview](#overview)  
+- [Overview](#overview)
+- [Dataset](#dataset)
 - [Features](#features)  
 - [Installation](#installation)  
   - [Conda Environment Setup](#conda-environment-setup)
@@ -15,6 +15,12 @@ This repository is dedicated to the work done using a CNN-RNN hybrid model in bi
 ## 🧠 Overview
 
 A hybrid deep learning approach combining Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs) for identifying bird species from data.
+
+## 📁 Dataset
+- Data Collection done by web scraping from `Xeno-Canto API`.
+- Details related to data collection and some more specific details are mentioned inside `README` of `Data_Preparation_Code` folder.
+
+**🔗 Final Dataset Link**: https://drive.google.com/file/d/1dxPxKide39Nk_wQ72rkLKS_0u1OAOoxI/view?usp=sharing
 
 ## 🚀 Features
 
@@ -86,10 +92,10 @@ bird_research_cnn_rnn/
 ├── ploting_tsne_best_model.ipynb
 ├── per_class_accuracy_bar.png
 └── tsne_visualization/
+└── Data_Preparation_Code/
 ```
 
 
 ## 👤 Author
 
 animesh1012
-
